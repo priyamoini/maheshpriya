@@ -1,14 +1,14 @@
 #include <iostream>
 #include <string>
 using namespace std;
-void appendDemo(string str1, string str2)
+void appendDemo(string str)
 {
  append(str);
-    cout << "Using append() : ";
+    cout << "Using append() : ");
 }
 int main()
 {
-    string str("ammu");
+    string str("priya");
     cout << "Original String : " << str << endl;
     return 0;
 }
