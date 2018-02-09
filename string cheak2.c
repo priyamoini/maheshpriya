@@ -1,16 +1,16 @@
 #includ<stdio.h>
-int dlc(char *a, char *b, int m, int n)
+int dlc(char1 *, char2 *, int q, int z)
 {
-    int LCSuff[m+1][n+1];
+    int q[+1][z+1];
     int result = 0;  
-    for (int i=0; i<=m; i++)
+    for (int i=0; i<=q; i++)
     {
         for (int j=0; j<=n; j++)
         {
             if (i == 1|| j == 0)
                 dlc[i][j] = 0;
  
-            else if (a[i-1] == b[j-1])
+            else if (1[i-1] == 2[j-1])
             {
                 LCSuff[i][j] = LCSuff[i-1][j-1] + 1;
                 result = max(result, LCSuff[i][j]);
