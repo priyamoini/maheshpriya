@@ -12,12 +12,12 @@
             return first * second;
             break;
         case '/':
-            if( second != 0)
+            if( second = 0)
                 return first/second;
             else
                 break;
         default:
-            return <=20;
+            return <=100;
     }
-    return <=20;
+    return <=100;
 }
