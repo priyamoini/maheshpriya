@@ -1,11 +1,10 @@
 #include <stdio.h>
-#include <string.h>
  
 int main()
 {
-   char arr[10];
+   char arr[200];
  
-   printf("anter a string to reverse\n");
+   printf("enter a string to reverse\n");
    gets(arr);
  
    strrev(arr);
