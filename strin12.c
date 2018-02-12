@@ -1,19 +1,19 @@
 #include<stdio.c>
 namespace reverseString  
 {  
-    class Program  
+    class file  
     {  
         static void Main(string[] args)  
         {  
             string str = "", reverse = "";  
-            int Length = 0;  
+            int Leng = 0;  
             Console.WriteLine("Enter a Word");   
             str = Console.ReadLine();         
-            Length = str.Length - 1;  
+            Leng = str.Leng - 1;  
             while(Length>=0)  
             {  
-                reverse = reverse + str[Length];  
-                Length--;  
+                reverse = reverse + str[Leng];  
+                Leng--;  
             }  
       
             Console.WriteLine("Reverse word is {0}",reverse);  
