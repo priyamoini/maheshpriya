@@ -14,7 +14,7 @@ int main()
  }
  else
  {
- printf("The no is equal to 0");
+  printf("The no is equal to 0");
  }
- return 0;
+  return 0;
  }
