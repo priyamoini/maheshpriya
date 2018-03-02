@@ -1,9 +1,9 @@
 #include <stdio.h>
-#define MAXSIZE 5
+#define MAX 5
  
 void main()
 {
-    int array[MAXSIZE];
+    int array[MAX];
     int i, j, num, temp;
  
     printf("Enter the value of num \n");
@@ -30,7 +30,7 @@ void main()
             }
         }
     }
-    printf("Sorted array is...\n");
+    printf(" array is...\n");
     for (i = 0; i < num; i++)
     {
         printf("%d\n", array[i]);
